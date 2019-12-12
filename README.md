@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Production
+https://master.d3tuhefslqmzkl.amplifyapp.com/
+
+# React & AWS
+https://aws.amazon.com/es/getting-started/tutorials/deploy-react-app-cicd-amplify/
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
