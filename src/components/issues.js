@@ -31,12 +31,18 @@ import React from 'react'
                     <th onclick="sortTable(5)">Assignee</th>
                     <th onclick="sortTable(6)"> Created</th>
                     <th onclick="sortTable(7)">Updated</th>
-                    <th colspan="1"></th>
                  </tr>
               </thead>
               <tbody>
                   {issues.map((issue) => (
                     <td>{issue.title}</td>
+                    <td class ="second">{issue.type_issue}</td>
+                    <td>{issue.priority}</td>
+                    <td>{issue.status}</td>
+                    <td>{issue.votes}</td>
+                    <td>{issue.assignee_id}</td>
+                    <td>{issue.created_at}</td>
+                    <td>{issue.updated_at}</td>
                   ))}
               </tbody>
           </table>
