@@ -35,6 +35,7 @@ import React from 'react'
               </thead>
               <tbody>
                   {issues.map((issue) => (
+                  <div>
                     <td>{issue.title}</td>
                     <td class ="second">{issue.type_issue}</td>
                     <td>{issue.priority}</td>
@@ -43,6 +44,7 @@ import React from 'react'
                     <td>{issue.assignee_id}</td>
                     <td>{issue.created_at}</td>
                     <td>{issue.updated_at}</td>
+                  </div>
                   ))}
               </tbody>
           </table>
