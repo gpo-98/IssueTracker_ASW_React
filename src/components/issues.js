@@ -35,16 +35,24 @@ import React from 'react'
               </thead>
               <tbody>
                   {issues.map((issue) => (
-                  <div>
                     <td>{issue.title}</td>
-                    <td class ="second">{issue.type_issue}</td>
+                    /*<td>{issue.type_issue}</td>
                     <td>{issue.priority}</td>
                     <td>{issue.status}</td>
                     <td>{issue.votes}</td>
                     <td>{issue.assignee_id}</td>
                     <td>{issue.created_at}</td>
-                    <td>{issue.updated_at}</td>
-                  </div>
+                    <td>{issue.updated_at}</td>*/
+                  ))}
+                  {issues.map((issue) => (
+                    //<td>{issue.title}</td>
+                    <td>{issue.type_issue}</td>
+                    /*<td>{issue.priority}</td>
+                    <td>{issue.status}</td>
+                    <td>{issue.votes}</td>
+                    <td>{issue.assignee_id}</td>
+                    <td>{issue.created_at}</td>
+                    <td>{issue.updated_at}</td>*/
                   ))}
               </tbody>
           </table>
