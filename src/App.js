@@ -28,9 +28,7 @@ import fetch from 'isomorphic-fetch'
         fetch("https://still-ridge-83597.herokuapp.com/microposts.json", {
           method: 'GET',
           headers: {  
-            'X-Mashape-Key': 'required',
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Accept': 'application/json'
+            'X-API-Key': 'c00faa986a0fc036b871395e83f16f31'
           }
         })   
         .then(response => response.json())
