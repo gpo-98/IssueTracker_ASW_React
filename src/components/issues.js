@@ -35,7 +35,7 @@ import React from 'react'
               </thead>
               <tbody>
                   {issues.map((issue) => (
-                    <React.Fragment>
+                    <tr>
                         <td>{issue.title}</td>
                         <td>{issue.type_issue}</td>
                         <td>{issue.priority}</td>
@@ -44,7 +44,7 @@ import React from 'react'
                         <td>{issue.assignee_id}</td>
                         <td>{issue.created_at}</td>
                         <td>{issue.updated_at}</td>
-                    </React.Fragment>
+                    </tr>
                   ))}
               </tbody>
           </table>
