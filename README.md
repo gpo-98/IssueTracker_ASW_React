@@ -6,7 +6,7 @@ Aquest projecte consisteix en fer un "Issue Tracker" que sigui similar a Bitbuck
 
 - Aquest repositori correspon a la tercera part de la pràctica, que ha sigut desenvolupada usant React i consumeix la nostre API Rest de la segona entrega.
 
--El document pertanyent per aquesta entrega está al repositori del primer lliurament a /docs/tercer_lliurament.pdf
+- El document pertanyent per aquesta entrega está al repositori del primer lliurament a /docs/tercer_lliurament.pdf (https://github.com/gpoltra/IssueTracker_ASW/tree/master/docs)
 
 # Membres del grup
 Ballber Balagueró, Pau  
